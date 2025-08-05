@@ -31,7 +31,6 @@ vim.opt.splitright = true
 vim.opt.splitbelow = true
 
 vim.opt.updatetime = 50
-vim.opt.colorcolumn = "80"
 
 -- clipboard
 vim.opt.clipboard:append("unnamedplus") --use system clipboard as default

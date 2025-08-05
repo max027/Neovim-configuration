@@ -22,6 +22,11 @@ config=function()
 						["<C-j>"] = actions.move_selection_next,
 					},
 				},
+                file_ignore_patterns = {
+                    ".git/",
+                    "target/",
+                    "node_modules"
+                },
 			},
             extensions = {
 				themes = {
